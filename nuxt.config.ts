@@ -43,7 +43,7 @@ export default defineNuxtConfig({
       name: 'Ferrari F1',
       short_name: 'Ferrari',
       theme_color: '#ffffff',
-      start_url: "/?source=pwa",
+      start_url: "/${locale}/manifest.webmanifest",
       display: "standalone",
       icons: [
         {
